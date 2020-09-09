@@ -1,0 +1,82 @@
+body,html{
+    height:100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Loto',sans-serif ;
+    font-weight: 900;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1,
+.pimg2,
+.pimg3{
+    position: relative  ;
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*cok önemli sayfada resim kaymadan akiyor  fixed parallel scroll normal*/
+
+
+}
+
+.pimg1{
+    background-image: url(./images1/pexels-aleksejs-bergmanis-681335.jpg);
+    min-height: 100% ;
+}
+
+.pimg2{
+    background-image: url(./images1/pexels-daria-shevtsova-1070945.jpg) ;
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url(./images1/pexels-maxime-francis-2246476.jpg);
+    min-height: 400px ;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+
+
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;}
+
+.section-dark{
+
+   background-color: #282e34;
+   color: #ddd;
+}
+.ptex{
+    position: absolute;
+    text-align: center ;
+    top: 50%;
+    width: 100%;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptex  .border {
+
+background-color: #111;
+color: #fff;
+padding: 20px;
+
+}
+#aa{
+    background-color: turquoise;
+
+}
+
+@media (max-width:768px){
+    .pimg1,  .pimg2,  .pimg3{
+        background-attachment: scroll;
+
+    }
+
+}
